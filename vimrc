@@ -13,7 +13,7 @@ set autoindent
 set expandtab
 set tabstop=4
 set shiftwidth=4
-set clipboard=unnamedplus
+set clipboard+=unnamedplus
 augroup HighlightTrailingSpaces
   autocmd!
   autocmd VimEnter,WinEnter,ColorScheme * highlight TrailingSpaces term=underline guibg=Red ctermbg=Red
